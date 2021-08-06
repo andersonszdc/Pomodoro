@@ -1,0 +1,41 @@
+.circle {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    width: 450px;
+    height: 450px;
+    border-radius: 250px;
+    border: 25px solid #2A2852;
+    margin: 30px auto 0 auto;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+}
+
+.start {
+    position: absolute;
+    top: 72%;
+    font-weight: 200;
+    letter-spacing: 0.4em;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+}
+
+.restart {
+    position: absolute;
+    top: calc(100% + 60px);
+    font-weight: 400;
+    letter-spacing: 0.4em;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.svg {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-90deg);
+}
